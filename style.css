@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&family=Kosugi+Maru&display=swap");
+* {
+  font-family: "Fredoka One", "Kosugi Maru";
+  position: relative;
+}
+
+html, body {
+  width: 90%;
+  height: 90%;
+  margin: 0;
+  padding: 30px;
+  top: 15px;
+  right: 5px;
+  background-color: #F4D06F;
+  color: black;
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 15px;
+  justify-content: center;
+}
+
+.resume {
+  display: flex;
+  width: 900px;
+  height: 550px;
+  border: solid 8px white;
+  padding: 15px;
+  position: relative;
+  left: -20px;
+  bottom: 20px;
+  background-color: #cbf3f0;
+  border-radius: 30px;
+}
+
+.left, .right {
+  padding: 20px;
+}
+
+.left {
+  flex: 5;
+  padding-right: 50px;
+  padding-left: 30px;
+}
+
+.right {
+  flex: 8;
+  padding-left: 40px;
+  padding-right: 30px;
+  padding-top: 150px;
+  top: -20px;
+}
+.right .block1 {
+  top: 20px;
+}
+.right .block1 .interface {
+  color: #222;
+  padding: 10px;
+  border-radius: 20px;
+}
+.right .block1 .music {
+  color: #222;
+  padding: 10px;
+  border-radius: 20px;
+  left: 20px;
+}
+.right .block1 .logo {
+  color: #222;
+  padding: 10px;
+  border-radius: 20px;
+  left: 40px;
+}
+.right .block2 {
+  top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1 {
+  letter-spacing: 3px;
+  font-weight: 500;
+}
+
+h2 {
+  margin: 0;
+  margin-bottom: 25px;
+  font-weight: 400;
+}
+
+h2::before {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 8px;
+  background-color: #00afb9;
+  margin-right: 10px;
+  margin-bottom: 5px;
+  border-radius: 7px;
+}
+
+h2::after {
+  content: "";
+  display: inline-block;
+  width: 20px;
+  height: 8px;
+  background-color: #00afb9;
+  margin-left: 10px;
+  margin-bottom: 5px;
+  border-radius: 7px;
+}
+
+h4 {
+  margin: 0;
+  margin-top: 30px;
+  opacity: 0.8;
+  font-weight: 400;
+  letter-spacing: 2px;
+}
+
+li {
+  font-weight: 400;
+}
+
+.btnfill {
+  background-color: brown;
+  border-radius: 2px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+.decoration {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(to bottom right, #90e0ef, #1e6091);
+  position: absolute;
+  top: 30px;
+  right: 10px;
+  border-radius: 50px 50px 50px 50px;
+  border-color: white;
+}
+
+.programskill .bar {
+  width: 50%;
+  height: 10px;
+  border: solid 2px #00afb9;
+  border-radius: 5px;
+}
+
+.programskill li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 10px;
+}
+.programskill li [class^=value] {
+  height: 100%;
+  width: 50%;
+  background-color: #00afb9;
+}
+.programskill li .valuep10 {
+  width: 10%;
+}
+.programskill li .valuep20 {
+  width: 20%;
+}
+.programskill li .valuep30 {
+  width: 30%;
+}
+.programskill li .valuep40 {
+  width: 40%;
+}
+.programskill li .valuep50 {
+  width: 50%;
+}
+.programskill li .valuep60 {
+  width: 60%;
+}
+.programskill li .valuep70 {
+  width: 70%;
+}
+.programskill li .valuep80 {
+  width: 80%;
+}
+.programskill li .valuep90 {
+  width: 90%;
+}
+.programskill li .valuep100 {
+  width: 100%;
+}
+
+.resume:hover {
+  box-shadow: 5px 5px 60px rgba(0, 0, 0, 0.4);
+  transform: translate(-5px, -5px);
+  transition: 0.6s;
+}
+
+.interface {
+  background-color: #fff;
+}
+
+.interface:hover {
+  background-color: #99d98c;
+  transition: 0.3s;
+}
+
+.music {
+  background-color: #fff;
+}
+
+.music:hover {
+  background-color: #99d98c;
+  transition: 0.3s;
+}
+
+.logo {
+  background-color: #fff;
+}
+
+.logo:hover {
+  background-color: #99d98c;
+  transition: 0.3s;
+}
